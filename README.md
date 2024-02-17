@@ -1,1 +1,1 @@
-# Simons dotfiles
+# Simon's dotfiles
