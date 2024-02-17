@@ -102,3 +102,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Homebrew
 export PATH="/opt/homebrew/bin:$PATH"
+
+# zoxide
+eval "$(zoxide init --cmd cd zsh)"
