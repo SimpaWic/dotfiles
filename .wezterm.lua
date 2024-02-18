@@ -9,5 +9,8 @@ local config = wezterm.config_builder()
 -- For example, changing the color scheme:
 config.color_scheme = 'rose-pine'
 
+-- font
+config.font = wezterm.font 'MonoLisa'
+
 -- and finally, return the configuration to wezterm
 return config
