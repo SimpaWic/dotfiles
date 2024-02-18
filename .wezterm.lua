@@ -12,5 +12,7 @@ config.color_scheme = 'rose-pine'
 -- font
 config.font = wezterm.font 'MonoLisa'
 
+config.window_background_opacity = 0.9
+
 -- and finally, return the configuration to wezterm
 return config
