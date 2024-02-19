@@ -24,5 +24,6 @@ yabai -m config auto_balance on
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Spotify$" manage=off
+yabai -m rule --add app="^Logi Options\+$" manage=off
 
 echo "yabai configuration loaded.."
