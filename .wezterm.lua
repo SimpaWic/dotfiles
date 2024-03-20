@@ -14,5 +14,14 @@ config.font = wezterm.font 'MonoLisa'
 
 config.window_background_opacity = 0.9
 
+-- custom keybinds
+config.keys = {
+	{
+		key = 'm',
+		mods = 'CMD',
+		action = wezterm.action.DisableDefaultAssignment,
+	},
+}
+
 -- and finally, return the configuration to wezterm
 return config
