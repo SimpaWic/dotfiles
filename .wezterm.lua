@@ -7,7 +7,15 @@ local config = wezterm.config_builder()
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'rose-pine'
+function scheme_for_appearance(appearance)
+	if appearance:find 'Dark' then
+		return 'Catppuccin Frappé (Gogh)'
+	else
+		return 'Catppuccin Latte (Gogh)'
+	end
+end
+
+config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 
 -- font
 config.font = wezterm.font 'MonoLisa'
