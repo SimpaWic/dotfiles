@@ -8,19 +8,20 @@ local config = wezterm.config_builder()
 
 -- For example, changing the color scheme:
 local function scheme_for_appearance(appearance)
-    if appearance:find 'Dark' then
-        return 'Catppuccin Mocha'
-    else
-        return 'Catppuccin Latte'
-    end
+    return 'Gruvbox dark, hard (base16)'
+    -- if appearance:find 'Dark' then
+    --     return 'Catppuccin Mocha'
+    -- else
+    --     return 'Catppuccin Latte'
+    -- end
 end
 
 config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 
 -- font
 config.font = wezterm.font 'MonoLisa'
-config.font_size = 14.0
-config.line_height = 1
+config.font_size = 16.0
+config.line_height = 1.2
 
 config.use_fancy_tab_bar = false
 config.show_new_tab_button_in_tab_bar = false
@@ -36,6 +37,46 @@ config.keys = {
     {
         key = 'm',
         mods = 'CMD',
+        action = wezterm.action.DisableDefaultAssignment,
+    },
+    {
+        key = '1',
+        mods = 'CMD',
+        action = wezterm.action.DisableDefaultAssignment,
+    },
+    {
+        key = '2',
+        mods = 'CMD',
+        action = wezterm.action.DisableDefaultAssignment,
+    },
+    {
+        key = '3',
+        mods = 'CMD',
+        action = wezterm.action.DisableDefaultAssignment,
+    },
+    {
+        key = '4',
+        mods = 'CMD',
+        action = wezterm.action.DisableDefaultAssignment,
+    },
+    {
+        key = 'h',
+        mods = 'CTRL',
+        action = wezterm.action.DisableDefaultAssignment,
+    },
+    {
+        key = 'j',
+        mods = 'CTRL',
+        action = wezterm.action.DisableDefaultAssignment,
+    },
+    {
+        key = 'k',
+        mods = 'CTRL',
+        action = wezterm.action.DisableDefaultAssignment,
+    },
+    {
+        key = 'l',
+        mods = 'CTRL',
         action = wezterm.action.DisableDefaultAssignment,
     },
 }
