@@ -9,11 +9,26 @@ return {
         contrast = "hard",
         transparent_mode = true,
         overrides = {
-          NoiceCmdlinePopupBorder = { bg = "#1D2021", fg = "#83A598" },
-          NoiceCmdlineIcon = { bg = "#1D2021", fg = "#83A598" },
-          NoiceCmdlinePopupTitle = { bg = "#1D2021", fg = "#83A598" },
-          NoiceCmdlinePopupBorderSearch = { bg = "#1D2021", fg = "#fabd2f" },
-          NoiceCmdlineIconSearch = { bg = "#1D2021", fg = "#fabd2f" },
+          NoiceCmdlinePopupBorder = {
+            bg = "NONE" --[["#1D2021"]],
+            fg = "#83A598",
+          },
+          NoiceCmdlineIcon = {
+            bg = "NONE" --[["#1D2021"]],
+            fg = "#83A598",
+          },
+          NoiceCmdlinePopupTitle = {
+            bg = "NONE" --[["#1D2021"]],
+            fg = "#83A598",
+          },
+          NoiceCmdlinePopupBorderSearch = {
+            bg = "NONE" --[["#1D2021"]],
+            fg = "#fabd2f",
+          },
+          NoiceCmdlineIconSearch = {
+            bg = "NONE" --[["#1D2021"]],
+            fg = "#fabd2f",
+          },
         },
       })
       vim.cmd("colorscheme gruvbox")
