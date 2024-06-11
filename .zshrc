@@ -128,6 +128,8 @@ alias lla="ll -a"
 alias cls="clear"
 alias lg="lazygit"
 alias xit="exit"
+alias nv="nvim"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
