@@ -1,7 +1,7 @@
 return {
   {
+    -- neo-tree.nvim flicker see https://github.com/LazyVim/LazyVim/issues/2262
     "echasnovski/mini.animate",
-    event = "VeryLazy",
     opts = {
       open = {
         enable = false,
