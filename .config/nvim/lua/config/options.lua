@@ -17,5 +17,8 @@ vim.api.nvim_create_autocmd("ColorScheme", {
     local set_hl = vim.fn["gruvbox_material#highlight"]
 
     set_hl("TelescopeTitle", palette.green, palette.none)
+    set_hl("CursorLine", palette.none, palette.bg3)
+    set_hl("CursorLineNr", palette.orange, palette.none)
+    set_hl("Folded", palette.none, palette.bg1)
   end,
 })
