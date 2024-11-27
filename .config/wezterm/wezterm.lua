@@ -19,7 +19,7 @@ config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 
 -- font
 config.font = wezterm.font 'MonoLisa'
-config.font_size = 14.0
+config.font_size = 18.0
 config.line_height = 1.0
 
 config.enable_tab_bar = false
