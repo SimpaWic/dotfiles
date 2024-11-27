@@ -140,6 +140,9 @@ alias lg="lazygit"
 alias xit="exit"
 alias nv="nvim"
 
+# kanata alias
+alias kanata="sudo ~/kanata/target/debug/kanata --cfg ~/.config/kanata/config.kbd"
+
 # eza aliases
 # alias ls="eza --icons=always"
 # alias lsa="ls -a"
