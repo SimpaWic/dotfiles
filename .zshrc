@@ -83,6 +83,7 @@ plugins=(
   docker
   colorize
   nvm
+  eza
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -140,11 +141,11 @@ alias xit="exit"
 alias nv="nvim"
 
 # eza aliases
-alias ls="eza --icons=always"
-alias lsa="ls -a"
-alias lsat="lsa -T"
-alias lla="ll -a"
-alias llat="lla -T"
+# alias ls="eza --icons=always"
+# alias lsa="ls -a"
+# alias lsat="lsa -T"
+# alias lla="ll -a"
+# alias llat="lla -T"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
