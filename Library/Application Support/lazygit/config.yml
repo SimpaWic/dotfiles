@@ -1,3 +1,14 @@
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never
+customCommands:
+  - key: "b"
+    command: "gh browse"
+    context: "files"
+  - key: "b"
+    command: 'gh browse "{{.SelectedLocalCommit.Sha}}"'
+    context: "commits"
 keybinding:
   universal:
     nextTab: ä
