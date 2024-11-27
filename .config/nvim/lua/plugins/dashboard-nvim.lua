@@ -1,3 +1,6 @@
+-- stylua: ignore
+if true then return {} end
+
 return {
   "nvimdev/dashboard-nvim",
   opts = function(_, opts)
