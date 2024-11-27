@@ -8,12 +8,11 @@ local config = wezterm.config_builder()
 
 -- For example, changing the color scheme:
 local function scheme_for_appearance(appearance)
-    return 'Gruvbox dark, hard (base16)'
-    -- if appearance:find 'Dark' then
-    --     return 'Catppuccin Mocha'
-    -- else
-    --     return 'Catppuccin Latte'
-    -- end
+    if appearance:find 'Dark' then
+        return 'Tokyo Night Storm'
+    else
+        return 'Tokyo Night Day'
+    end
 end
 
 config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
