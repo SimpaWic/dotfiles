@@ -1,4 +1,4 @@
--- options for js files
+-- options for javascript files
 
 local opt = vim.opt
 
